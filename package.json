@@ -1,9 +1,9 @@
 {
-  "name": "react-modal-video",
-  "version": "2.0.2",
+  "name": "vadimages-react-modal-video",
+  "version": "2.1.4",
   "main": "lib/index.js",
   "description": "Modal Video Viewer",
-  "author": "appleple",
+  "author": "Vadimages",
   "license": "MIT",
   "scripts": {
     "test": "eslint ./src/index.jsx --fix",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/appleple/react-modal-video.git"
+    "url": "https://github.com/mihailShumilov/vadimages-react-modal-video.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
@@ -47,7 +47,7 @@
     "react-transition-group": "^4.4.2"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.2.0",
-    "react-dom": "^17.0.0 || ^18.2.0"
+    "react": "^17.0.0 || ^18.2.0 || ^19.0.0 || ^22.0.0",
+    "react-dom": "^17.0.0 || ^18.2.0 || ^19.0.0 || ^22.0.0"
   }
 }
